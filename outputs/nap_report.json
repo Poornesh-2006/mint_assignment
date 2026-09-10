@@ -1,0 +1,72 @@
+[
+  {
+    "field": "business_name",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No business_name values were extracted from crawled pages."
+  },
+  {
+    "field": "phone",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No phone values were extracted from crawled pages."
+  },
+  {
+    "field": "street_address",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No street_address values were extracted from crawled pages."
+  },
+  {
+    "field": "city",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No city values were extracted from crawled pages."
+  },
+  {
+    "field": "region",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No region values were extracted from crawled pages."
+  },
+  {
+    "field": "postal_code",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No postal_code values were extracted from crawled pages."
+  },
+  {
+    "field": "full_address",
+    "pages_compared": [],
+    "values": [],
+    "normalized_values": [],
+    "confidence": 0.12,
+    "verdict": "insufficient_evidence",
+    "sources": [],
+    "explanation": "No full_address values were extracted from crawled pages."
+  }
+]

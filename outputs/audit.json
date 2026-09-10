@@ -1,0 +1,170 @@
+[
+  {
+    "metric": "missing_xml_sitemap",
+    "page": "https://www.katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "No sitemap.xml / sitemap_index.xml was discovered from robots.txt or common sitemap paths.",
+    "suggested_fix": "Generate an XML sitemap of indexable URLs and declare it in robots.txt with a Sitemap: directive."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/contact",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contact (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/contact-us",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contact-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/contactus",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contactus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/about",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /about (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/about-us",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /about-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/aboutus",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /aboutus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/our-story",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /our-story (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/our-history",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /our-history (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/locations",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /locations (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/location",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /location (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/address",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /address (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/find-us",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /find-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/findus",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /findus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/hours",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /hours (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/hours-and-location",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /hours-and-location (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/visit",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /visit (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/visit-us",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /visit-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/privacy",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /privacy (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/privacy-policy",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /privacy-policy (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/menu",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /menu (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/faqs",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /faqs (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  },
+  {
+    "metric": "fetch_error",
+    "page": "https://www.katzsdelicatessen.com/faq",
+    "severity": "medium",
+    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /faq (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
+    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+  }
+]
