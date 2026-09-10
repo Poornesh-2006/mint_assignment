@@ -2,8 +2,8 @@
   "input_url": "https://www.katzsdelicatessen.com",
   "query": "What are the hours of operation?",
   "start_url": "https://www.katzsdelicatessen.com/",
-  "pages_crawled": 23,
-  "groq_used": true,
-  "audit_findings": 24,
+  "pages_crawled": 20,
+  "groq_used": false,
+  "audit_findings": 128,
   "nap_fields": 7
 }
