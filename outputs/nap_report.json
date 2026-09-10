@@ -1,43 +1,151 @@
 [
   {
     "field": "business_name",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No business_name values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html",
+      "https://www.google.com/maps/place/Katz's+Delicatessen/@40.722196,-73.987429,15z/data=!4m2!3m1!1s0x0:0x6d81c935bba20d9b"
+    ],
+    "values": [
+      "Katz's Delicatessen"
+    ],
+    "normalized_values": [
+      "katz s delicatessen"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent",
+    "sources": [
+      "homepage_title",
+      "page_mention"
+    ],
+    "explanation": "business_name matches across 20 pages. Raw values agree exactly: [\"Katz's Delicatessen\"]."
   },
   {
     "field": "phone",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No phone values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html"
+    ],
+    "values": [
+      "212-254-2246",
+      "(212) 254-2246"
+    ],
+    "normalized_values": [
+      "2122542246"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent_formatting_only",
+    "sources": [
+      "regex",
+      "tel_link"
+    ],
+    "explanation": "phone raw strings differ (['212-254-2246', '(212) 254-2246']) but collapse to one normalized value ['2122542246']. Treated as formatting, not a NAP mismatch."
   },
   {
     "field": "street_address",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No street_address values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html"
+    ],
+    "values": [
+      "205 East Houston Street"
+    ],
+    "normalized_values": [
+      "205 e houston st"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent",
+    "sources": [
+      "regex"
+    ],
+    "explanation": "street_address matches across 19 pages. Raw values agree exactly: ['205 East Houston Street']."
   },
   {
     "field": "city",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No city values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html"
+    ],
+    "values": [
+      "New York City"
+    ],
+    "normalized_values": [
+      "new york city"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent",
+    "sources": [
+      "regex"
+    ],
+    "explanation": "city matches across 19 pages. Raw values agree exactly: ['New York City']."
   },
   {
     "field": "region",
@@ -51,22 +159,74 @@
   },
   {
     "field": "postal_code",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No postal_code values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html"
+    ],
+    "values": [
+      "10002"
+    ],
+    "normalized_values": [
+      "10002"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent",
+    "sources": [
+      "regex"
+    ],
+    "explanation": "postal_code matches across 19 pages. Raw values agree exactly: ['10002']."
   },
   {
     "field": "full_address",
-    "pages_compared": [],
-    "values": [],
-    "normalized_values": [],
-    "confidence": 0.12,
-    "verdict": "insufficient_evidence",
-    "sources": [],
-    "explanation": "No full_address values were extracted from crawled pages."
+    "pages_compared": [
+      "https://katzsdelicatessen.com/",
+      "https://katzsdelicatessen.com/privacypolicy",
+      "https://katzsdelicatessen.com/contact",
+      "https://katzsdelicatessen.com/faqs",
+      "https://katzsdelicatessen.com/address",
+      "https://katzsdelicatessen.com/our-story",
+      "https://katzsdelicatessen.com/store-menu",
+      "https://katzsdelicatessen.com/shipping/high-holidays.html",
+      "https://katzsdelicatessen.com/shipping.html",
+      "https://katzsdelicatessen.com/carving-station",
+      "https://katzsdelicatessen.com/group-reservations",
+      "https://katzsdelicatessen.com/events",
+      "https://katzsdelicatessen.com/brooklyn",
+      "https://katzsdelicatessen.com/cooking-instructions",
+      "https://katzsdelicatessen.com/press",
+      "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+      "https://katzsdelicatessen.com/pastrami",
+      "https://katzsdelicatessen.com/corned-beef",
+      "https://katzsdelicatessen.com/rosh-hashanah.html"
+    ],
+    "values": [
+      "205 East Houston Street, New York City, 10002"
+    ],
+    "normalized_values": [
+      "205 e houston st new york city 10002"
+    ],
+    "confidence": 0.97,
+    "verdict": "consistent",
+    "sources": [
+      "composed"
+    ],
+    "explanation": "full_address matches across 19 pages. Raw values agree exactly: ['205 East Houston Street, New York City, 10002']."
   }
 ]
