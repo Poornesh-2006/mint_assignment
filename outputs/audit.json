@@ -1,170 +1,898 @@
 [
   {
-    "metric": "missing_xml_sitemap",
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "10 of 55 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "medium",
+    "evidence": "10 of 13 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/privacypolicy",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "medium",
+    "evidence": "10 of 13 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/contact",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "medium",
+    "evidence": "10 of 15 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/faqs",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "low",
+    "evidence": "Meta description is 18 characters: 'Location and Hours'",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "medium",
+    "evidence": "10 of 30 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/address",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "medium",
+    "evidence": "10 of 13 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/our-story",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "medium",
+    "evidence": "10 of 13 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/store-menu",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "low",
+    "evidence": "Meta description is 40 characters: \"Katz's Rosh Hasnanah and Yom Kippur Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "medium",
+    "evidence": "10 of 27 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/shipping/high-holidays.html",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "medium",
+    "evidence": "10 of 26 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/shipping.html",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "low",
+    "evidence": "Meta description is 41 characters: 'catering, carving station, event planning'",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "medium",
+    "evidence": "10 of 17 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/carving-station",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "low",
+    "evidence": "Meta description is 28 characters: \"Group reservations at Katz's\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "medium",
+    "evidence": "10 of 21 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/group-reservations",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "low",
+    "evidence": "Meta description is 48 characters: \"A guide to private events at Katz's Delicatessen\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "medium",
+    "evidence": "10 of 20 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/events",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "missing_h1",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "high",
+    "evidence": "0 <h1> elements. Heading outline: [{'tag': 'h4', 'level': 4, 'text': 'High Holidays'}, {'tag': 'h4', 'level': 4, 'text': 'Seasonal & Gifts'}, {'tag': 'h4', 'level': 4, 'text': 'Packages'}, {'tag': 'h4', 'level': 4, 'text': 'Meats'}, {'tag': 'h4', 'level': 4, 'text': 'Jewish Specialties'}, {'tag': 'h4', 'level': 4, 'text': 'On the Grill'}, {'tag': 'h4', 'level': 4, 'text': 'Soups'}, {'tag': 'h4', 'level': 4, 'text': 'Bagels, Rye, Mustard and More'}].",
+    "suggested_fix": "Add exactly one H1 that describes the primary topic of the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "medium",
+    "evidence": "10 of 21 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/brooklyn",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "title_too_long",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "low",
+    "evidence": "<title> is 66 characters (likely truncated in SERPs): \"Katz's At-Home Cooking & Storage Instructions  - NYC's oldest deli\"",
+    "suggested_fix": "Shorten the title to about 50–60 characters, leading with the most important words."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "low",
+    "evidence": "Meta description is 45 characters: \"Katz's At-Home Cooking & Storage Instructions\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "medium",
+    "evidence": "10 of 37 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/cooking-instructions",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "low",
+    "evidence": "Meta description is 18 characters: \"Katz's in the news\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "multiple_h1",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "medium",
+    "evidence": "11 <h1> tags on the page: ['Press', 'The 40 Best Father’s Day Gifts for Every Type of Dad', 'NYC\\'s iconic Katz\\'s Deli reopens its long-shuttered \"secret\" dining room', 'The best gift baskets and bundles for the food lovers on your list', \"Wirecutter's 100 Most Popular Gifts Ever\", \"I Tried the Katz's Deli Sandwich from When Harry Met Sally and It's My New Favorite Lunch\"].",
+    "suggested_fix": "Keep a single H1; demote additional headings to H2+."
+  },
+  {
+    "metric": "heading_hierarchy_skip",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "low",
+    "evidence": "Heading levels jump from h1 to h3. Outline: h4:'High Holidays', h4:'Seasonal & Gifts', h4:'Packages', h4:'Meats', h4:'Jewish Specialties', h4:'On the Grill', h4:'Soups', h4:'Bagels, Rye, Mustard and More', h4:'Desserts', h4:'Merchandise & More'",
+    "suggested_fix": "Do not skip heading levels (e.g. H2 → H4). Nest headings in order."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "medium",
+    "evidence": "18 of 31 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "title_too_long",
+    "page": "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+    "severity": "low",
+    "evidence": "<title> is 213 characters (likely truncated in SERPs): \"Katz's Delicatessen in New York: America's most famous Jewish deli is worth the trip - Katz's Delicatessen in New York: America's most famous Jewish deli is worth the trip - Katz's in the news  - NYC's oldest deli\"",
+    "suggested_fix": "Shorten the title to about 50–60 characters, leading with the most important words."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+    "severity": "low",
+    "evidence": "Meta description is 18 characters: \"Katz's in the news\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+    "severity": "medium",
+    "evidence": "19 of 22 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "heading_hierarchy_skip",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "low",
+    "evidence": "Heading levels jump from h1 to h3. Outline: h4:'High Holidays', h4:'Seasonal & Gifts', h4:'Packages', h4:'Meats', h4:'Jewish Specialties', h4:'On the Grill', h4:'Soups', h4:'Bagels, Rye, Mustard and More', h4:'Desserts', h4:'Merchandise & More'",
+    "suggested_fix": "Do not skip heading levels (e.g. H2 → H4). Nest headings in order."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "medium",
+    "evidence": "10 of 27 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/pastrami",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "meta_description_too_short",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "low",
+    "evidence": "Meta description is 25 characters: \"Katz's Deli Shipping Menu\"",
+    "suggested_fix": "Write a 120–160 character description that summarises the page."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "medium",
+    "evidence": "10 of 27 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_open_graph",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "low",
+    "evidence": "og:title=None; og:description=None; og:image=None",
+    "suggested_fix": "Add og:title, og:description, and og:image so search/answer engines and social crawlers get a clean snippet."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/corned-beef",
+    "severity": "low",
+    "evidence": "1 links use non-descriptive anchors such as [('more', '#')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "http_error_status",
+    "page": "https://katzsdelicatessen.com/group-events",
+    "severity": "medium",
+    "evidence": "HTTP 404 when requesting https://katzsdelicatessen.com/group-events. Error: none.",
+    "suggested_fix": "Fix the server/application so this URL returns 200 with the intended document, or 301 it to a live equivalent."
+  },
+  {
+    "metric": "meta_description_too_long",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "low",
+    "evidence": "Meta description is 255 characters and will likely be truncated: 'Rosh Hashanah Dinner #html-body [data-pb-style=Q9PW6GK]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-'",
+    "suggested_fix": "Trim the meta description to ~150–160 characters."
+  },
+  {
+    "metric": "missing_canonical",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "medium",
+    "evidence": "No <link rel='canonical'> in the document head.",
+    "suggested_fix": "Add a self-referencing canonical to the preferred absolute URL of this page."
+  },
+  {
+    "metric": "heading_hierarchy_skip",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "low",
+    "evidence": "Heading levels jump from h1 to h4. Outline: h4:'High Holidays', h4:'Seasonal & Gifts', h4:'Packages', h4:'Meats', h4:'Jewish Specialties', h4:'On the Grill', h4:'Soups', h4:'Bagels, Rye, Mustard and More', h4:'Desserts', h4:'Merchandise & More'",
+    "suggested_fix": "Do not skip heading levels (e.g. H2 → H4). Nest headings in order."
+  },
+  {
+    "metric": "images_missing_alt",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "medium",
+    "evidence": "22 of 34 <img> tags have no alt attribute. Examples: /media/catalog/category/Thumbnail2_1-min.jpg, /media/catalog/category/Katzs_TasteofNY_1-min.jpeg, /media/catalog/category/BDAY_TIGHTSQ_1_min.jpg, /media/catalog/category/slicedpastrami_1_.jpg, /media/catalog/category/Jewish_Specialties.jpg",
+    "suggested_fix": "Add descriptive alt text to informative images; use alt=\"\" only for purely decorative images."
+  },
+  {
+    "metric": "missing_json_ld",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "medium",
+    "evidence": "No application/ld+json blocks parsed from the page.",
+    "suggested_fix": "Add JSON-LD for Organization/LocalBusiness on the homepage and Article/FAQPage where the content supports it."
+  },
+  {
+    "metric": "generic_anchor_text",
+    "page": "https://katzsdelicatessen.com/rosh-hashanah.html",
+    "severity": "low",
+    "evidence": "2 links use non-descriptive anchors such as [('more', '#'), ('here', 'https://katzsdelicatessen.com/faqs')].",
+    "suggested_fix": "Use descriptive anchor text that names the destination page."
+  },
+  {
+    "metric": "duplicate_meta_description",
+    "page": "https://katzsdelicatessen.com/",
+    "severity": "medium",
+    "evidence": "Meta description reused on 10 URLs. First 120 chars: \"katz's deli shipping menu\". Pages: ['https://katzsdelicatessen.com/', 'https://katzsdelicatessen.com/privacypolicy', 'https://katzsdelicatessen.com/contact', 'https://katzsdelicatessen.com/faqs', 'https://katzsdelicatessen.com/our-story', 'https://katzsdelicatessen.com/store-menu']",
+    "suggested_fix": "Write a unique meta description per URL."
+  },
+  {
+    "metric": "duplicate_meta_description",
+    "page": "https://katzsdelicatessen.com/press",
+    "severity": "medium",
+    "evidence": "Meta description reused on 2 URLs. First 120 chars: \"katz's in the news\". Pages: ['https://katzsdelicatessen.com/press', 'https://katzsdelicatessen.com/press/post/https-www-usatoday-com-story-travel-columnist-greatamericanbites-2019-03-14-katz-deli-new-york-city-3155601002']",
+    "suggested_fix": "Write a unique meta description per URL."
+  },
+  {
+    "metric": "missing_localbusiness_schema",
     "page": "https://www.katzsdelicatessen.com/",
     "severity": "medium",
-    "evidence": "No sitemap.xml / sitemap_index.xml was discovered from robots.txt or common sitemap paths.",
-    "suggested_fix": "Generate an XML sitemap of indexable URLs and declare it in robots.txt with a Sitemap: directive."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/contact",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contact (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/contact-us",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contact-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/contactus",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /contactus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/about",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /about (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/about-us",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /about-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/aboutus",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /aboutus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/our-story",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /our-story (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/our-history",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /our-history (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/locations",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /locations (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/location",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /location (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/address",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /address (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/find-us",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /find-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/findus",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /findus (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/hours",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /hours (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/hours-and-location",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /hours-and-location (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/visit",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /visit (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/visit-us",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /visit-us (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/privacy",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /privacy (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/privacy-policy",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /privacy-policy (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/menu",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /menu (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/faqs",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /faqs (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
-  },
-  {
-    "metric": "fetch_error",
-    "page": "https://www.katzsdelicatessen.com/faq",
-    "severity": "medium",
-    "evidence": "Could not parse HTML (HTTPSConnectionPool(host='www.katzsdelicatessen.com', port=443): Max retries exceeded with url: /faq (Caused by NameResolutionError(\"HTTPSConnection(host='www.katzsdelicatessen.com', port=443): Failed to resolve 'www.katzsdelicatessen.com' ([Errno 11001] getaddrinfo failed)\"))). Content-Type=''.",
-    "suggested_fix": "Ensure the URL returns HTML for browsers and crawlers, with a text/html Content-Type."
+    "evidence": "Crawled 19 HTML pages; none contained JSON-LD @type LocalBusiness (or a subtype) / Organization.",
+    "suggested_fix": "Add LocalBusiness JSON-LD on the homepage and contact page with name, address, telephone, and url."
   }
 ]
